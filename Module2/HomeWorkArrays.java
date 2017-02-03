@@ -67,5 +67,31 @@ public class HomeWorkArrays {
         System.out.println("Максимальное значение массива int: " + intmax);
         System.out.println("Максимальное значение массива double: " + doublemax);
         System.out.println("----------");
+        //max positive
+        int maxPosValue =intArray[0];
+        for (int i = 0; i < intArray.length; i++) {
+            if (intArray[i]>=0 && maxPosValue<intArray[i])
+                maxPosValue=intArray[i];
+        }
+        if(maxPosValue<0){
+            System.out.println("В массиве нет элементов больше нуля.");
+        } else
+            System.out.println("Наибольшее положительное число в массиве: "+maxPosValue);
+        System.out.println("----------");
+        //multiplication
+        int intmult = 1;
+        for (int i = 1; i <intArray.length ; i++) {
+            intsum*=intArray[i];
+        }
+        System.out.println("Сумма помноженных чисел: " +intsum);
+        System.out.println("----------");
+        //modulus
+        int modulusInt = intArray[0] % intArray[9];
+        double modulusDouble = doubleArray[0] % doubleArray[9];
+        System.out.println("Modulus Integer: " + modulusInt);
+        System.out.println("Modulus Double: " + modulusDouble);
+        //Second Largest Element
+
+
     }
 }
