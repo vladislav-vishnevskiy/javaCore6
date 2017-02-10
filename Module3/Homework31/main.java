@@ -1,4 +1,6 @@
-package Module3;
+package Module3.Homework31;
+
+import Module3.Homework31.Bird;
 
 /**
  * Created by Vladislav on 10.02.2017.
