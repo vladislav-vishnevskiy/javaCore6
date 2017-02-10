@@ -1,4 +1,4 @@
-package Module2;
+package Module2.Homework1;
 
 /**
  * Input: array with size = 10 can be of one of two data types: int and double. Calculate:

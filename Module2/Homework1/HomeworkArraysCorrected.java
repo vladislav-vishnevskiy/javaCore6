@@ -1,4 +1,4 @@
-package Module2;
+package Module2.Homework1;
 
 /**
  * sum
@@ -41,7 +41,7 @@ public class HomeworkArraysCorrected {
 
     public static int sum(int array[]) {                                                            //сумма массива int
         int intSum = 0;
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 2; i < array.length; i++) {
             intSum += array[i];
         }
         return intSum;
