@@ -1,6 +1,4 @@
-package Module3.hw1.hw1.hw1;
-
-import Module3.hw1.hw1.hw1.Bird;
+package Module3.hw1;
 
 /**
  * Created by Vladislav on 10.02.2017.

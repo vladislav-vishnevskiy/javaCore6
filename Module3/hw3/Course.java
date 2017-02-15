@@ -1,4 +1,4 @@
-package Module3.hw1.hw1.hw3;
+package Module3.hw3;
 
 import java.util.Date;
 
@@ -48,7 +48,8 @@ public class Course {
         this.name = name;
     }
 
-    public Course(int hoursDuration, String teacherName) {
+    public Course(String name, int hoursDuration, String teacherName) {
+        this.name = name;
         this.hoursDuration = hoursDuration;
         this.teacherName = teacherName;
     }
