@@ -1,6 +1,6 @@
-package Module3.Homework31;
+package Module3.hw1.hw1.hw1;
 
-import Module3.Homework31.Bird;
+import Module3.hw1.hw1.hw1.Bird;
 
 /**
  * Created by Vladislav on 10.02.2017.
