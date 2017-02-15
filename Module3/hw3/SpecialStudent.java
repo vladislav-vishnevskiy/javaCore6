@@ -23,13 +23,17 @@ public class SpecialStudent extends CollegeStudent {
         this.email = email;
     }
 
+    public SpecialStudent(String firstName, String lastName, int group) {
+        super(firstName, lastName, group);
+    }
+
+    public SpecialStudent(String lastName, Course[] coursesTaken) {
+        super(lastName, coursesTaken);
+    }
+
     public SpecialStudent(String firstName, String lastName, int group, String collegeName, int rating, long id, long secretKey) {
         super(firstName, lastName, group, collegeName, rating, id);
         this.secretKey = secretKey;
     }
-
-    public SpecialStudent(String lastName, Course[] coursesTaken, String collegeName, int rating, long id, long secretKey) {
-        super(lastName, coursesTaken, collegeName, rating, id);
-        this.secretKey = secretKey;
-    }
 }
+
