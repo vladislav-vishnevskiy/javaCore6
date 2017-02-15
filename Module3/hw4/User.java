@@ -24,6 +24,15 @@ public class User {
     private int salary;
     private String currency;
 
+    public User(String name, int balance, int monthsOfEmployment, String companyName, int salary, String currency) {
+        this.name = name;
+        this.balance = balance;
+        this.monthsOfEmployment = monthsOfEmployment;
+        this.companyName = companyName;
+        this.salary = salary;
+        this.currency = currency;
+    }
+
     public String getName() {
         return name;
     }
@@ -72,17 +81,23 @@ public class User {
         this.currency = currency;
     }
 
-
-    public User(String name, int balance, int monthsOfEmployment, String companyName, int salary, String currency) {
-        this.name = name;
-        this.balance = balance;
-        this.monthsOfEmployment = monthsOfEmployment;
-        this.companyName = companyName;
-        this.salary = salary;
-        this.currency = currency;
-    }
-
     public void paySalary() {
         this.balance += this.salary;
     }
+
+    public void withdraw(int summ) {
+        if (getBalance() < 1000) {
+            this.balance = (int) (this.balance - summ - (summ * 0.05));
+        } else if (getBalance() >= 1000) {
+            this.balance = (int) (this.balance - summ - (summ * 0.1));
+        }
+    }
+    int companyNameLength() {
+        return this.companyName.length();
+    }
+
+    void monthIncreaser(int addMonth){
+        this.monthsOfEmployment += addMonth;
+    }
 }
+

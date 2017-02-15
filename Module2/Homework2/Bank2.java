@@ -23,4 +23,4 @@ public class Bank2 {
 
         System.out.println(answer);
     }
-}
+    }

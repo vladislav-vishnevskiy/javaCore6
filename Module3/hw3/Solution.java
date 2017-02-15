@@ -17,11 +17,12 @@ public class Solution {
 
     Student DjangoUnchained = new Student("Django", "Unchained", 6);
     Student CapitanAmerica = new Student("America",courses2);
-    Student Deadpool = new Student("Wade", "Wilson", 1);
-    Student Wolwerine = new Student("James", "Howlett", 1);
 
     CollegeStudent BabaYaga = new CollegeStudent ("Baba", "Yaga", 12, "Izbushka", 13, 25119543);
     CollegeStudent KPI = new CollegeStudent("KPI", courses2);
+    CollegeStudent Deadpool = new CollegeStudent("Wade", "Wilson", 1);
+
     SpecialStudent Superman = new SpecialStudent("Klark", courses);
     SpecialStudent Batman = new SpecialStudent("Bruce", "Wayne", 1, "Gotham", 2, 496, 4586);
+    SpecialStudent Wolwerine = new SpecialStudent("Hugh", "Jackman", 1);
 }
