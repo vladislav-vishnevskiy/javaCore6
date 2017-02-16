@@ -87,9 +87,9 @@ public class User {
 
     public void withdraw(int summ) {
         if (getBalance() < 1000) {
-            this.balance = (int) (this.balance - summ - (summ * 0.05));
+            this.balance =  (this.balance - summ - (summ/20));
         } else if (getBalance() >= 1000) {
-            this.balance = (int) (this.balance - summ - (summ * 0.1));
+            this.balance = (this.balance - summ - (summ/10));
         }
     }
     int companyNameLength() {
