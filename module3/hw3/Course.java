@@ -3,7 +3,27 @@ package module3.hw3;
 import java.util.Date;
 
 /**
- * Created by Vladislav on 15.02.2017.
+ * Создать следующую структуру классов.
+ * Класс Course с полями:
+ * Date startDate,
+ * String name,
+ * int hoursDuration,
+ * String teacherName.
+ * ---
+ * Создайте 2 конструктора с аргументами
+ * startDate, name;
+ * hoursDuration, name, teacherName.
+ * ---
+ * Класс Student с полями:
+ * String firstName,
+ * String lastName,
+ * int group,
+ * Course[] coursesTaken,
+ * int age.
+ * ---
+ * С 2 конструкторами с аргументами
+ * firstName, lastName, group;
+ * lastName, coursesTaken.
  */
 public class Course {
     private Date startDate;
