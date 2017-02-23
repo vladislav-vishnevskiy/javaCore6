@@ -30,12 +30,12 @@ public class BankExample {
         double balance = 100;
 
         System.out.println("Your balance is: " + balance + "$" +
-                "\nEnter the sum amount wish to get");
+                "\nEnter the sum ourAmount wish to get");
 
         Scanner in = new Scanner(System.in);
-        double amount = in.nextDouble();
+        double ourAmount = in.nextDouble();
 
-        System.out.println(calculateOperation(amount));
+        System.out.println(calculateOperation(ourAmount));
 
     }
 }

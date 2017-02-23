@@ -48,10 +48,15 @@ public class HomeworkArraysCorrected {
     }
 
     public static double sum(double array[]) {                                                   //сумма массива double
-        double doubleSum = 0;
-        for (int i = 0; i < array.length; i++) {
-            doubleSum += array[i];
+        double doubleSum = 0;//ячейка в которую накапливаем сумму чисел
+        for (int i = 0; i < array.length; i++){ // по очерди перебираем все числа из массива
+            doubleSum += array[i]; // и добавляем их к той накопительной переменной
         }
+
+        for (double x: array) {// тут в отличии от кода віше напрямую берём числа из массива
+            doubleSum+=x;
+        }
+
         return doubleSum;
     }
 
